@@ -225,6 +225,7 @@ export default function HomePage() {
                     setEmployeeCompanyErr("Cannot be blank");
                   else setEmployeeCompanyErr("");
                 }}
+                defaultValue={companies[0]}
               >
                 {state.companies.map((elem, index) => {
                 
